@@ -24,4 +24,5 @@ Result is calculated for (Array or Value)
 [ One In  ] will be performed after formation first subArray with SubArrSize
 
 
-https://github-readme-stats.vercel.app/api?username=jarvisjacksonraj&show_icons=true&theme=gotham" alt="jacksonraj"
+
+<p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=jarvisjacksonraj&show_icons=true&theme=gotham" alt="jacksonraj" />
