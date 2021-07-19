@@ -1,28 +1,32 @@
-Sliding Window Pattern
+## Sliding Window Pattern
 
+
+### General Properties:
+
+Size of SubArray will be { Arr.len - subArrSize + 1 }
+</br>
+Range of SubArray is { I to I + subArrSize }
+
+### Variation 1:
 
 find or calculate something among all the contiguous SubArrays (or SubLists) of a given size
 
-Size of SubArray will be { Arr.len - subArrSize + 1 }
-Range of SubArray is { I to I + subArrSize }
+### Approach:
 
-Variation 1:
+1) Same Start Point for both start & End will Iterate till Arr.len
+2) Perform Operation (Example: Sum) and Inclusion
 
-Approach:
+3) Contd to slide is { End >=  subArrSize -1 }
+        ( = for first time )
+        ( > is for consecutive SubArray of subArrSize )
 
-Same Start Point for both start & End will Iterate till Arr.len
+4) Result is calculated for (Array or Value)
 
-Perform Operation (Sum)
-
-Contd to slide is { End >=  subArrSize -1 }
-( = for first time )
-( > is for consecutive SubArray of subArrSize )
-
-Result is calculated for (Array or Value)
-
-[ One Out ] to calculate (Ex Sum)
-[ One In  ] will be performed after formation first subArray with SubArrSize
+5) Exclusion
+        </br>
+        [One Out] to calculate (Example: Sum)
+        </br>
+        [One In] will be performed after formation first subArray with SubArrSize
 
 
 
-<p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=jarvisjacksonraj&show_icons=true&theme=gotham" alt="jacksonraj" />
