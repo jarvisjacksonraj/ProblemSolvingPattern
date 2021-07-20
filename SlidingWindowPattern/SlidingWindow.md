@@ -29,4 +29,18 @@ find or calculate something among all the contiguous SubArrays (or SubLists) of 
         [One In] will be performed after formation first subArray with SubArrSize
 
 
+### Variation 2:
+
+find the length of the smallest contiguous subArray whose sum is greater than or equal to ‘S’
+
+The sliding window size is not fixed
+
+### Approach:
+
+1) Similarly, exclusion will start when calculated (sum or operation) reaches target.
+   
+2) Exclusion will be done continuous in loop to get min (max) length.
+
+2) other structure will be same in this case
+
 
